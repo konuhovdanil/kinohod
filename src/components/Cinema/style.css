@@ -1,0 +1,76 @@
+.cinema {
+    background: #fff;
+    width: 100%;
+    height: 78px;
+    margin-bottom: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+    padding: 11px 11px 9px;
+    position: relative;
+}
+
+.cinema:last-child {
+    margin-bottom: 0;
+}
+
+.cinema .leftside {
+    float: left;
+}
+
+.cinema .name {
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 9px;
+    color: #606060;
+}
+
+.cinema .address {
+    font-size: 11px;
+    color: #878787;
+}
+
+.cinema .station {
+    font-size: 11px;
+    display: inline-block;
+    color: #7c7c7c;
+    margin-right: 13px;
+}
+
+.cinema .station .station-color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid;
+    margin-right: 4px;
+}
+
+.rightside {
+    float: right;
+}
+
+.rightside .have-tickets {
+    color: #6d5e3a;
+    border: 1px solid #6d5e3a;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.rightside .add-to-favorite {
+    color: #3374c0;
+    border: 1px solid #3374c0;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    margin-right: 1px;
+    font-size: 21px;
+    position: absolute;
+    bottom: 12px;
+    right: 11px;
+}

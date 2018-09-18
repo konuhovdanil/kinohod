@@ -10,3 +10,7 @@ body, * {
     display: table;
     clear: both;
 }
+
+.cbalink {
+    display: none;
+}
